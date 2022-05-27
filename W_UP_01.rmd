@@ -62,4 +62,9 @@ the line players lasted an average time of six minutes,the median was 14.5, the 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+```{r}
+t.test(pushups~position,data=mydata)
+```
 
+Our p value is so small that we reject the null hypothesis,it is not greater than .05 so the null hypothesis cannot be accepted.The chances of the line players doing more pushups than the skilled position is very rare. 95% of the time skilled players will do more pushups.
+```
