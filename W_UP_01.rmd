@@ -55,16 +55,14 @@ favstats(pushups~position,data=mydata)
 
 the line players lasted an average time of six minutes,the median was 14.5, the max was 34,the mean was 17.12500.on average the line players did less pushups than the skilled players.the skill players lasted an average of 18 minutes,a median of 47.5,max was 108,the mean was 49.72727. on average the skilled players did more pushups.
 ## Inferential Results
-
-<!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
-
-
-# Discussion and Conclusion
-
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
+<!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 Our p value is so small that we reject the null hypothesis,it is not greater than .05 so the null hypothesis cannot be accepted.The chances of the line players doing more pushups than the skilled position is very rare. 95% of the time skilled players will do more pushups.
 ```
+# Discussion and Conclusion
+
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
