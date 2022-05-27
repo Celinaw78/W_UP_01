@@ -40,15 +40,20 @@ The positions they play is the categorical variable and the numerical variable a
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-
-### Numerical Descriptive Results
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+### Numerical Descriptive Results
+
 
 players on the skilled position did more push ups than those on the line position. 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+the line players lasted an average time of six minutes,the median was 14.5, the max was 34,the mean was 17.12500.on average the line players did less pushups than the skilled players.the skill players lasted an average of 18 minutes,a median of 47.5,max was 108,the mean was 49.72727. on average the skilled players did more pushups.
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
